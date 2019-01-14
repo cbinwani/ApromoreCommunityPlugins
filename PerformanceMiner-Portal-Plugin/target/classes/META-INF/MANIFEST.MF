@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425889916
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-ClassPath: .,jfreechart-1.0.19.jar,jcommon-1.0.23.jar
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Performance Mining Portal
+Bundle-SymbolicName: org.apromore.plugin.perfmining-portal-plugin
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=jcommon|jfreechart
+Embed-Transitive: false
+Embedded-Artifacts: jfreechart-1.0.19.jar;g="org.jfree";a="jfreechart";v
+ ="1.0.19",jcommon-1.0.23.jar;g="org.jfree";a="jcommon";v="1.0.23"
+Import-Package: org.joda.time;version="2.3",javax.accessibility,javax.im
+ ageio,javax.imageio.metadata,javax.imageio.stream,javax.inject;version=
+ "[1.0,2)",javax.servlet,javax.servlet.http,javax.swing,javax.swing.bord
+ er,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swi
+ ng.table,javax.swing.text,javax.xml.parsers,org.apromore.model;version=
+ "[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org.apromore.ser
+ vice;version="[1.1,2)",org.apromore.service.perfmining;version="[1.0,2)
+ ",org.apromore.service.perfmining.filter;version="[1.0,2)",org.apromore
+ .service.perfmining.models;version="[1.0,2)",org.apromore.service.perfm
+ ining.parameters;version="[1.0,2)",org.deckfour.xes.extension.std,org.d
+ eckfour.xes.factory,org.deckfour.xes.in,org.deckfour.xes.model,org.json
+ ,org.springframework.stereotype;version="[3.1,4)",org.xml.sax,org.xml.s
+ ax.helpers,org.zkoss.json;version="[8.0,9)",org.zkoss.util.media;versio
+ n="[8.0,9)",org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zk.ui.event;ver
+ sion="[8.0,9)",org.zkoss.zk.ui.select;version="[8.0,9)",org.zkoss.zk.ui
+ .select.annotation;version="[8.0,9)",org.zkoss.zk.ui.util;version="[8.0
+ ,9)",org.zkoss.zul;version="[8.0,9)",org.zkoss.zul.ext;version="[8.0,9)
+ ",org.apromore.plugin;version="[1.1,2)",org.springframework.beans.facto
+ ry.aspectj;version="[3.1,4)",org.joda.convert;resolution:=optional,org.
+ joda.time.format;version="2.3",org.joda.time.field;version="2.3",org.jo
+ da.time.chrono;version="2.3",org.joda.time.convert;version="2.3",org.jo
+ da.time.tz;version="2.3"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

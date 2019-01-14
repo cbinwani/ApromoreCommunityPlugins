@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425465368
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: BEBoP service
+Bundle-SymbolicName: org.apromore.gbebop-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.bebop;uses:="org.apromore.graph.can
+ onical,org.apromore.model,org.json,org.processmining.models.graphbased.
+ directed.bpmn";version="1.1.0"
+Ignore-Package: au.edu.qut.bpmn.exporter.impl
+Import-Package: javax.activation;version="[1.1,2)",javax.xml.bind;versio
+ n="[2.2,3)",javax.xml.bind.annotation;version="[2.2,3)",javax.xml.parse
+ rs,javax.xml.transform,javax.xml.transform.stream,org.apromore.graph.ca
+ nonical;version="[1.1,2)",org.apromore.model;version="[1.1,2)",org.apro
+ more.plugin;version="[1.1,2)",org.apromore.portal.custom.gui.tab;versio
+ n="[1.1,2)",org.apromore.portal.custom.gui.tab.impl;version="[1.1,2)",o
+ rg.apromore.service.bebop;version="[1.1,2)",org.json,org.processmining.
+ models.graphbased;version="[1.1,2)",org.processmining.models.graphbased
+ .directed.bpmn;version="[1.1,2)",org.processmining.models.graphbased.di
+ rected.bpmn.elements;version="[1.1,2)",org.springframework.beans.factor
+ y.aspectj;version="[3.1,4)",org.springframework.stereotype;version="[3.
+ 1,4)",org.w3c.dom,org.xml.sax,org.zkoss.zk.ui.event;version="[8.0,9)",o
+ rg.zkoss.zk.ui.util;version="[8.0,9)",org.zkoss.zul;version="[8.0,9)"
+Tool: Bnd-1.50.0

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425676419
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Launches the Cmapper applet, which creates CMAP betw
+ een a QML questionnaire and a C-BPMN configurable process model
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Cmapper portal plugin
+Bundle-SymbolicName: org.apromore.plugin.cmapper-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.cmapper;uses:="org.apromore.p
+ lugin.portal";version="1.1.0"
+Import-Package: com.processconfiguration;version="[1.1,2)",com.processco
+ nfiguration.cmap;version="[1.1,2)",com.signavio;version="[1.1,2)",javax
+ .activation;version="[1.1,2)",javax.inject;version="[1.0,2)",javax.xml.
+ bind;version="[2.2,3)",javax.xml.transform,javax.xml.transform.stream,o
+ rg.apromore.filestore.client;version="[1.1,2)",org.apromore.helper;vers
+ ion="[1.1,2)",org.apromore.model;version="[1.1,2)",org.apromore.plugin.
+ portal;version="[1.1,2)",org.apromore.service;version="[1.1,2)",org.omg
+ .spec.bpmn._20100524.di;version="[1.1,2)",org.omg.spec.bpmn._20100524.m
+ odel;version="[1.1,2)",org.omg.spec.dd._20100524.dc;version="[1.1,2)",o
+ rg.omg.spec.dd._20100524.di;version="[1.1,2)",org.zkoss.spring;version=
+ "[8.0,9)",org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zul;version="[8.0
+ ,9)",org.apromore.plugin;version="[1.1,2)",org.eclipse.virgo.web.dm,org
+ .springframework.web.context;version="[3.1,4)",org.springframework.bean
+ s.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Web-ContextPath: /cmapper

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425702303
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Compare service
+Bundle-SymbolicName: org.apromore.compare-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.compare;uses:="org.deckfour.xes.mod
+ el,ee.ut.eventstr.comparison.differences";version="1.1.0"
+Import-Package: ee.ut.bpmn;version="[1.1,2)",ee.ut.eventstr.comparison;v
+ ersion="[1.1,2)",ee.ut.eventstr.comparison.differences;version="[1.1,2)
+ ",hub.top.petrinet;version="[1.1,2)",org.apromore.service.compare;versi
+ on="[1.1,2)",org.deckfour.xes.model;version="[1.1,2)",org.slf4j;version
+ ="[1.7,2)",org.springframework.beans.factory.aspectj,org.springframewor
+ k.stereotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

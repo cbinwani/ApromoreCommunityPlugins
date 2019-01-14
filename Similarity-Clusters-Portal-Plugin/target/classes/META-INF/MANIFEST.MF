@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547426010031
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Clone detection
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Similarity Clusters portal plugin
+Bundle-SymbolicName: org.apromore.plugin.similarity-clusters-portal-plug
+ in
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.similarityclusters;version="1
+ .1.0";uses:="org.apromore.exception,org.apromore.plugin.portal,org.apro
+ more.portal.custom.gui.plugin,org.apromore.service,org.springframework.
+ stereotype,org.zkoss.zk.ui"
+Import-Package: javax.inject;version="[1.0,2)",org.apromore.dao.model;ve
+ rsion="[1.1,2)",org.apromore.exception;version="[1.1,2)",org.apromore.m
+ odel;version="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org
+ .apromore.portal.custom.gui.plugin;version="[1.1,2)",org.apromore.servi
+ ce;version="[1.1,2)",org.apromore.service.model;version="[1.1,2)",org.s
+ lf4j;version="[1.7,2)",org.springframework.stereotype;version="[3.1,4)"
+ ,org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zk.ui.event;version="[8.0,
+ 9)",org.zkoss.zul;version="[8.0,9)",org.apromore.plugin;version="[1.1,2
+ )",org.springframework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425809102
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Activity Filter Logic
+Bundle-SymbolicName: org.apromore.activity-filter-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.logfilter.activity;uses:="org.deckf
+ our.xes.model";version="1.1.0"
+Import-Package: org.apromore.plugin;version="[1.1,2)",org.apromore.servi
+ ce.logfilter.activity;version="[1.1,2)",org.deckfour.xes.classification
+ ;version="[1.1,2)",org.deckfour.xes.info;version="[1.1,2)",org.deckfour
+ .xes.info.impl;version="[1.1,2)",org.deckfour.xes.model;version="[1.1,2
+ )",org.processmining.framework.plugin;version="[6.0,10.0)",org.processm
+ ining.framework.util.collection;version="[6.0,10.0)",org.processmining.
+ plugins.log.logfilters.impl;version="[6.0,10.0)",org.springframework.be
+ ans.factory.aspectj;version="[3.1,4)",org.springframework.stereotype;ve
+ rsion="[3.1,4)"
+Tool: Bnd-1.50.0

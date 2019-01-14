@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425646102
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Infrequent Behaviour Filter service
+Bundle-SymbolicName: org.apromore.infrequent-behaviour-filter-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.logfilter.behaviour;uses:="org.deck
+ four.xes.model";version="1.1.0"
+Import-Package: com.raffaeleconforti.noisefiltering.event;version="[1.1,
+ 2)",org.apache.commons.io;version="[1.4,2)",org.apromore.plugin;version
+ ="[1.1,2)",org.apromore.service.logfilter.behaviour;version="[1.1,2)",o
+ rg.deckfour.xes.classification,org.deckfour.xes.model,org.springframewo
+ rk.beans.factory.aspectj;version="[3.1,4)",org.springframework.stereoty
+ pe;version="[3.1,4)"
+Tool: Bnd-1.50.0

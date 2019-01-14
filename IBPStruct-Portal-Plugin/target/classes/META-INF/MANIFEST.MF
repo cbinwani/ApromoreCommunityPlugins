@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425805992
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Structuring Plugin
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: iBPStruct portal plugin
+Bundle-SymbolicName: org.apromore.plugin.ibpstruct-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.ibpstruct;version="1.1.0";use
+ s:="javax.inject,org.apromore.plugin.portal,org.apromore.service,org.ap
+ romore.service.bpmndiagramimporter,org.apromore.service.helper,org.apro
+ more.service.ibpstruct,org.springframework.stereotype,org.zkoss.zk.ui.e
+ vent,org.zkoss.zul"
+Import-Bundle: org.apromore.raffaeleconforti-osgi;bundle-version="[1.0,2
+ .0]"
+Import-Package: org.processmining.models.graphbased.directed.bpmn;versio
+ n="[1.0,2.0)",au.edu.qut.bpmn.exporter.impl;version="[1.1,2)",javax.inj
+ ect;version="[1.0,2)",javax.xml.datatype,org.apromore.dao.model;version
+ ="[1.1,2)",org.apromore.helper;version="[1.1,2)",org.apromore.model;ver
+ sion="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org.apromor
+ e.service;version="[1.1,2)",org.apromore.service.bpmndiagramimporter;ve
+ rsion="[1.1,2)",org.apromore.service.helper;version="[1.1,2)",org.aprom
+ ore.service.ibpstruct;version="[1.1,2)",org.apromore.service.model;vers
+ ion="[1.1,2)",org.slf4j;version="[1.7,2)",org.springframework.stereotyp
+ e;version="[3.1,4)",org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zk.ui.e
+ vent;version="[8.0,9)",org.zkoss.zul;version="[8.0,9)",org.apromore.plu
+ gin;version="[1.1,2)",org.springframework.beans.factory.aspectj;version
+ ="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

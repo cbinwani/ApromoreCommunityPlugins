@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425876095
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Log Visualizer Portal Plugin
+Bundle-SymbolicName: org.apromore.plugin.log-visualizer-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Transitive: false
+Export-Package: org.apromore.plugin.portal.logvisualizer;version="1.1.0"
+ ;uses:="org.apromore.plugin.portal,org.apromore.plugin.portal.loganimat
+ ion,org.apromore.service,org.apromore.service.helper,org.apromore.servi
+ ce.logvisualizer,org.springframework.stereotype"
+Import-Bundle: org.apromore.raffaeleconforti-osgi;bundle-version="[1.0,2
+ .0]"
+Import-Package: org.processmining.contexts.uitopia;version="[1.0,2.0)",o
+ rg.processmining.framework.plugin;version="[1.0,2.0)",org.processmining
+ .models.graphbased.directed.bpmn;version="[1.0,2.0)",org.processmining.
+ models.graphbased.directed.bpmn.elements;version="[1.0,2.0)",org.proces
+ smining.plugins.bpmn;version="[1.0,2.0)",javax.inject;version="[1.0,2)"
+ ,javax.swing,javax.xml.datatype,org.apromore.dao.model;version="[1.1,2)
+ ",org.apromore.model;version="[1.1,2)",org.apromore.plugin.portal;versi
+ on="[1.1,2)",org.apromore.plugin.portal.loganimation;version="[1.0,2)",
+ org.apromore.service;version="[1.1,2)",org.apromore.service.helper;vers
+ ion="[1.1,2)",org.apromore.service.logvisualizer;version="[1.1,2)",org.
+ deckfour.xes.model;version="[1.1,2)",org.json,org.slf4j;version="[1.7,2
+ )",org.springframework.stereotype;version="[3.1,4)",org.zkoss.zk.ui;ver
+ sion="[8.0,9)",org.zkoss.zk.ui.event;version="[8.0,9)",org.zkoss.zk.ui.
+ util;version="[8.0,9)",org.zkoss.zul;version="[8.0,9)",org.springframew
+ ork.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

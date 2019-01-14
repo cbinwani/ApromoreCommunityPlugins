@@ -1,0 +1,8 @@
+org/apromore/service/logfilter/activity/impl/LogFilter$EventFilterStep.class
+org/apromore/service/logfilter/activity/impl/LogFilter.class
+org/apromore/service/logfilter/activity/impl/LogFilter$EventTypeStep.class
+org/apromore/service/logfilter/activity/impl/LogFilter$EventClassComparator.class
+org/apromore/service/logfilter/activity/impl/LogFilter$1.class
+org/apromore/service/logfilter/activity/impl/LogFilter$SimpleStep.class
+org/apromore/service/logfilter/activity/impl/ActivityFilterServiceImpl.class
+org/apromore/service/logfilter/activity/ActivityFilterService.class

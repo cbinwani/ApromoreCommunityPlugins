@@ -1,0 +1,5 @@
+org/apromore/service/logvisualizer/ws/model/VisualizeLogOutputMsgType.class
+org/apromore/service/logvisualizer/ws/model/VisualizeLogInputMsgType.class
+org/apromore/service/logvisualizer/ws/model/ObjectFactory.class
+org/apromore/service/logvisualizer/ws/model/package-info.class
+org/apromore/service/logvisualizer/ws/LogVisualizerEndpoint.class

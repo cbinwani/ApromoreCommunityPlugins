@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425724883
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: LTL conformance checking logic
+Bundle-SymbolicName: org.apromore.ltl-conf-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.conf.ltl;uses:="au.ltl.main,au.ltl.
+ domain,au.ltl.utils";version="1.1.0"
+Import-Package: au.ltl.domain;version="[1.1,2)",au.ltl.main;version="[1.
+ 1,2)",au.ltl.utils;version="[1.1,2)",org.apromore.service.conf.ltl;vers
+ ion="[1.1,2)",org.slf4j;version="[1.7,2)",org.springframework.beans.fac
+ tory.aspectj,org.springframework.stereotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

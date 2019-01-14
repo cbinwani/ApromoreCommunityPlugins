@@ -1,0 +1,16 @@
+org/apromore/plugin/portal/bpmnminer/SelectDynamicListController.class
+org/apromore/plugin/portal/bpmnminer/BPMNMinerPlugin.class
+org/apromore/plugin/portal/bpmnminer/BPMNMinerController.class
+org/apromore/plugin/portal/bpmnminer/CandidatesEntitiesController.class
+org/apromore/plugin/portal/bpmnminer/CandidatesEntitiesController$2.class
+org/apromore/plugin/portal/bpmnminer/BPMNMinerController$3.class
+org/apromore/plugin/portal/bpmnminer/MiningSettingsController$1.class
+org/apromore/plugin/portal/bpmnminer/MiningSettingsController$2.class
+org/apromore/plugin/portal/bpmnminer/CandidatesEntitiesController$1.class
+org/apromore/plugin/portal/bpmnminer/BPMNMinerController$1.class
+org/apromore/plugin/portal/bpmnminer/PrimaryKeyController$1.class
+org/apromore/plugin/portal/bpmnminer/CandidatesEntitiesController$3.class
+org/apromore/plugin/portal/bpmnminer/PrimaryKeyController.class
+org/apromore/plugin/portal/bpmnminer/MiningSettingsController.class
+org/apromore/plugin/portal/bpmnminer/BPMNMinerController$2.class
+org/apromore/plugin/portal/bpmnminer/PrimaryKeyController$2.class

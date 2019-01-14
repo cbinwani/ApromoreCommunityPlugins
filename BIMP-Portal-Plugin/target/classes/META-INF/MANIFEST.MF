@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425640042
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Send a BPMN diagram to the online BIMP simulator
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: BIMP simulator portal plugin
+Bundle-SymbolicName: org.apromore.plugin.bimp-portal-plugin
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.bimp;version="1.0.0";uses:="o
+ rg.apromore.plugin.portal,org.springframework.stereotype"
+Import-Package: javax.inject;version="[1.0,2)",org.apromore.exception;ve
+ rsion="[1.1,2)",org.apromore.helper;version="[1.1,2)",org.apromore.mode
+ l;version="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org.ap
+ romore.service;version="[1.1,2)",org.springframework.stereotype;version
+ ="[3.1,4)",org.zkoss.zk.ui.util;version="[8.0,9)",org.zkoss.zul;version
+ ="[8.0,9)",org.apromore.plugin;version="[1.1,2)",org.springframework.be
+ ans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

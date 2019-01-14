@@ -1,0 +1,9 @@
+org/apromore/service/bebop/BebopService.class
+org/apromore/service/bebop/impl/abstractGuideline.class
+org/apromore/service/bebop/impl/NodeBPMN.class
+org/apromore/service/bebop/impl/GetReqGuidelines.class
+org/apromore/service/bebop/impl/GuidelinesFactory.class
+org/apromore/service/bebop/impl/BebopServiceImpl.class
+org/apromore/service/bebop/impl/BebopController.class
+org/apromore/service/bebop/impl/abstractGuideline$1.class
+org/apromore/service/bebop/impl/ElementID.class

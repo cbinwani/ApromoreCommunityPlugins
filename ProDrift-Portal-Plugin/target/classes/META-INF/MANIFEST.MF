@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425970986
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Process drift detection portal plugin
+Bundle-SymbolicName: org.apromore.plugin.prodrift-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.prodrift.model;version="1.1.0
+ ";uses:="org.zkoss.zul",org.apromore.plugin.portal.prodrift;version="1.
+ 1.0";uses:="javax.inject,org.apache.commons.lang.mutable,org.apromore.m
+ odel,org.apromore.plugin.portal,org.apromore.prodrift.model,org.apromor
+ e.service,org.apromore.service.prodrift,org.deckfour.xes.model,org.spri
+ ngframework.stereotype,org.zkoss.zul",org.apromore.plugin.portal.prodri
+ ft.Util;version="1.1.0"
+Import-Package: javax.inject;version="[1.0,2)",javax.xml.datatype,org.ap
+ ache.commons.lang.mutable;version="[2.6,3)",org.apromore.dao.model;vers
+ ion="[1.1,2)",org.apromore.model;version="[1.1,2)",org.apromore.plugin.
+ portal;version="[1.1,2)",org.apromore.plugin.portal.prodrift.Util;versi
+ on="[1.1,2)",org.apromore.plugin.portal.prodrift.model;version="[1.1,2)
+ ",org.apromore.prodrift.config;version="[2.4,3)",org.apromore.prodrift.
+ driftdetector;version="[2.4,3)",org.apromore.prodrift.exception;version
+ ="[2.4,3)",org.apromore.prodrift.model;version="[2.4,3)",org.apromore.p
+ rodrift.util;version="[2.4,3)",org.apromore.service;version="[1.1,2)",o
+ rg.apromore.service.prodrift;version="[1.1,2)",org.deckfour.xes.model;v
+ ersion="[1.1,2)",org.springframework.stereotype;version="[3.1,4)",org.z
+ koss.util.media;version="[8.0,9)",org.zkoss.zk.ui;version="[8.0,9)",org
+ .zkoss.zk.ui.event;version="[8.0,9)",org.zkoss.zk.ui.sys;version="[8.0,
+ 9)",org.zkoss.zk.ui.util;version="[8.0,9)",org.zkoss.zul;version="[8.0,
+ 9)",org.apromore.plugin;version="[1.1,2)",org.springframework.beans.fac
+ tory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

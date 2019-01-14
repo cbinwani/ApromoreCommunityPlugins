@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425897328
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: UI for predictive monitors
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Predictive monitor portal plugin
+Bundle-SymbolicName: org.apromore.plugin.predictive-monitor-portal-plugi
+ n
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.predictivemonitor;uses:="java
+ x.servlet,javax.servlet.http,org.apromore.plugin.portal,org.apromore.se
+ rvice,org.apromore.service.predictivemonitor,org.springframework.stereo
+ type,org.zkoss.zul";version="1.0.0"
+Import-Package: javax.inject;version="[1.0,2)",javax.servlet;version="[3
+ .0,4)",javax.servlet.http;version="[3.0,4)",javax.xml.datatype,org.apac
+ he.commons.io;version="[1.4,2)",org.apache.kafka.clients.producer;versi
+ on="[1.0,2)",org.apache.kafka.common.serialization;version="[1.0,2)",or
+ g.apromore.model;version="[1.1,2)",org.apromore.plugin.portal;version="
+ [1.1,2)",org.apromore.service;version="[1.1,2)",org.apromore.service.pr
+ edictivemonitor;version="[1.0,2)",org.deckfour.xes.model,org.json;versi
+ on="[20090211.0,20090212)",org.slf4j;version="[1.7,2)",org.springframew
+ ork.stereotype;version="[3.1,4)",org.springframework.web.context.suppor
+ t;version="[3.1,4)",org.zkoss.util.media;version="[8.0,9)",org.zkoss.zk
+ .ui;version="[8.0,9)",org.zkoss.zk.ui.event;version="[8.0,9)",org.zkoss
+ .zul;version="[8.0,9)",org.zkoss.zul.event;version="[8.0,9)",org.zkoss.
+ zul.ext;version="[8.0,9)",org.apromore.plugin;version="[1.1,2)",org.ecl
+ ipse.virgo.web.dm,org.springframework.security.web.session;version="[3.
+ 1,4)",org.springframework.web.context;version="[3.1,4)",org.springframe
+ work.web.context.request;version="[3.1,4)",org.springframework.beans.fa
+ ctory.aspectj;version="[3.1,4)",org.springframework.web.filter;version=
+ "[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Web-ContextPath: predictiveMonitor

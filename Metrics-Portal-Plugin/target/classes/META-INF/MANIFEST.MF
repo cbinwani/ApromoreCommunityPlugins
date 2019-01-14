@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425879080
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Metrics Plugin
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Metrics portal plugin
+Bundle-SymbolicName: org.apromore.plugin.metrics-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.metrics;version="1.1.0";uses:
+ ="org.apromore.model,org.apromore.plugin.portal,org.apromore.portal.cus
+ tom.gui.plugin,org.springframework.stereotype"
+Import-Package: javax.inject;version="[1.0,2)",org.apromore.graph.canoni
+ cal;version="[1.1,2)",org.apromore.helper;version="[1.1,2)",org.apromor
+ e.model;version="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",
+ org.apromore.portal.custom.gui.plugin;version="[1.1,2)",org.apromore.po
+ rtal.custom.gui.tab;version="[1.1,2)",org.apromore.portal.custom.gui.ta
+ b.impl;version="[1.1,2)",org.apromore.service;version="[1.1,2)",org.apr
+ omore.service.bpmndiagramimporter;version="[1.1,2)",org.apromore.servic
+ e.metrics;version="[1.1,2)",org.deckfour.xes.model,org.processmining.mo
+ dels.graphbased.directed.bpmn;version="[1.1,2)",org.slf4j;version="[1.7
+ ,2)",org.springframework.stereotype;version="[3.1,4)",org.zkoss.zul;ver
+ sion="[8.0,9)",org.apromore.plugin;version="[1.1,2)",org.springframewor
+ k.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425739650
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: APM service
+Bundle-SymbolicName: org.apromore.apm-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.apm;uses:="hub.top.petrinet";versio
+ n="1.1.0",hub.top.petrinet;uses:="org.antlr.runtime";version="1.1.0"
+Import-Package: hub.top.petrinet;version="[1.1,2)",nl.rug.ds.bpm.variabi
+ lity;version="[1.1,2)",org.antlr.runtime;version="[1.1,2)",org.apromore
+ .service.apm;version="[1.1,2)",org.springframework.beans.factory.aspect
+ j,org.springframework.stereotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

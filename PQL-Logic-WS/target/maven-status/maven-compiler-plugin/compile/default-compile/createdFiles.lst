@@ -1,0 +1,16 @@
+org/apromore/service/pql/ws/model/ObjectFactory.class
+org/apromore/service/pql/ws/model/package-info.class
+org/apromore/service/pql/ws/model/ResultType.class
+org/apromore/service/pql/ws/model/ProcessSummaryType.class
+org/apromore/service/pql/ws/model/DetailOutputMsgType.class
+org/apromore/service/pql/ws/model/IndexStatus.class
+org/apromore/service/pql/ws/model/RunAPQLOutputMsgType.class
+org/apromore/service/pql/ws/model/DetailInputMsgType.class
+org/apromore/service/pql/ws/model/RunAPQLInputMsgType.class
+org/apromore/service/pql/ws/PQLEndpoint.class
+org/apromore/service/pql/ws/model/VersionSummaryType.class
+org/apromore/service/pql/ws/model/DBInputMsgType.class
+org/apromore/service/pql/ws/model/DBOutputMsgType.class
+org/apromore/service/pql/ws/model/FolderType.class
+org/apromore/service/pql/ws/model/AnnotationsType.class
+org/apromore/service/pql/ws/model/Detail.class

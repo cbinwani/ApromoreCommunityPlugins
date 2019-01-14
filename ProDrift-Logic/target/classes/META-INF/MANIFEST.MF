@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425967153
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Process drift detection service
+Bundle-SymbolicName: org.apromore.prodrift-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.prodrift;uses:="org.apromore.prodri
+ ft.config,org.deckfour.xes.model,org.apromore.prodrift.model";version="
+ 1.1.0"
+Import-Package: org.apromore.prodrift.config;version="[2.4,3)",org.aprom
+ ore.prodrift.driftdetector;version="[2.4,3)",org.apromore.prodrift.mode
+ l;version="[2.4,3)",org.apromore.service.prodrift;version="[1.1,2)",org
+ .deckfour.xes.model;version="[1.1,2)",org.slf4j;version="[1.7,2)",org.s
+ pringframework.beans.factory.aspectj;version="[3.1,4)",org.springframew
+ ork.stereotype;version="[3.1,4)",org.springframework.transaction.annota
+ tion;version="[3.1,4)"
+Tool: Bnd-1.50.0

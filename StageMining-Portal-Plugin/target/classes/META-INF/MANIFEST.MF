@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425872246
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Apromore Plugin API's and core Plugins
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Stage Mining Portal plugin
+Bundle-SymbolicName: org.apromore.plugin.stagemining-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.stagemining;version="1.1.0";u
+ ses:="javax.inject,org.apromore.plugin.portal,org.apromore.service,org.
+ apromore.service.stagemining,org.deckfour.xes.factory,org.deckfour.xes.
+ model,org.joda.time,org.json,org.processmining.stagemining.models,org.s
+ pringframework.stereotype,org.zkoss.zk.ui.event,org.zkoss.zul"
+Import-Package: javax.inject;version="[1.0,2)",org.apromore.model;versio
+ n="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org.apromore.s
+ ervice;version="[1.1,2)",org.apromore.service.stagemining;version="[1.1
+ ,2)",org.deckfour.xes.extension;version="[1.1,2)",org.deckfour.xes.exte
+ nsion.std;version="[1.1,2)",org.deckfour.xes.factory;version="[1.1,2)",
+ org.deckfour.xes.in;version="[1.1,2)",org.deckfour.xes.model;version="[
+ 1.1,2)",org.deckfour.xes.out;version="[1.1,2)",org.jbpt.hypergraph.abs;
+ version="[0.2,1)",org.joda.time;version="[2.3,3)",org.json,org.processm
+ ining.stagemining.models;version="[1.1,2)",org.processmining.stageminin
+ g.models.graph;version="[1.1,2)",org.processmining.stagemining.utils;ve
+ rsion="[1.1,2)",org.springframework.stereotype;version="[3.1,4)",org.zk
+ oss.util.media;version="[8.0,9)",org.zkoss.zk.ui;version="[8.0,9)",org.
+ zkoss.zk.ui.event;version="[8.0,9)",org.zkoss.zk.ui.util;version="[8.0,
+ 9)",org.zkoss.zul;version="[8.0,9)",org.zkoss.zul.ext;version="[8.0,9)"
+ ,org.apromore.plugin;version="[1.1,2)",org.springframework.beans.factor
+ y.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425815417
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Infrequent Behaviour Filter Plugin
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Infrequent Behaviour Filter portal plugin
+Bundle-SymbolicName: org.apromore.plugin.infrequent-behaviour-filter-por
+ tal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.logfilter.behaviour;version="
+ 1.1.0";uses:="org.apromore.model,org.apromore.plugin.portal,org.apromor
+ e.portal.custom.gui.plugin,org.springframework.stereotype"
+Import-Package: javax.inject;version="[1.0,2)",javax.xml.datatype,org.ap
+ romore.dao.model;version="[1.1,2)",org.apromore.model;version="[1.1,2)"
+ ,org.apromore.plugin.portal;version="[1.1,2)",org.apromore.portal.custo
+ m.gui.plugin;version="[1.1,2)",org.apromore.service;version="[1.1,2)",o
+ rg.apromore.service.logfilter.behaviour;version="[1.1,2)",org.deckfour.
+ xes.model,org.slf4j;version="[1.7,2)",org.springframework.stereotype;ve
+ rsion="[3.1,4)",org.apromore.plugin;version="[1.1,2)",org.springframewo
+ rk.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

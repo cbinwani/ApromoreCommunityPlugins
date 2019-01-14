@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425581651
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PQL query service
+Bundle-SymbolicName: org.apromore.pql-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.pql;uses:="org.apromore.helper,org.
+ apromore.model,org.pql.index";version="1.1.0"
+Import-Package: com.mysql.jdbc;version="[5.1,6)",javax.activation;versio
+ n="[1.1,2)",javax.inject;version="[1.0,2)",org.apache.commons.io;versio
+ n="[1.4,2)",org.apromore.dao;version="[1.1,2)",org.apromore.dao.model;v
+ ersion="[1.1,2)",org.apromore.exception;version="[1.1,2)",org.apromore.
+ helper;version="[1.1,2)",org.apromore.model;version="[1.1,2)",org.aprom
+ ore.plugin;version="[1.1,2)",org.apromore.plugin.process;version="[1.1,
+ 2)",org.apromore.plugin.property;version="[1.1,2)",org.apromore.service
+ ;version="[1.1,2)",org.apromore.service.pql;version="[1.1,2)",org.jbpt.
+ persist;version="[1.2,2)",org.pql.api;version="[1.2,2)",org.pql.core;ve
+ rsion="[1.2,2)",org.pql.index;version="[1.2,2)",org.pql.label;version="
+ [1.2,2)",org.pql.query;version="[1.2,2)",org.slf4j;version="[1.7,2)",or
+ g.springframework.beans.factory.aspectj;version="[3.1,4)",org.springfra
+ mework.scheduling.annotation;version="[3.1,4)",org.springframework.ster
+ eotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

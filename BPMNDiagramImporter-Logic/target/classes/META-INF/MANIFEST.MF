@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425462143
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: BPMN diagram parser service (prom6)
+Bundle-SymbolicName: org.apromore.bpmndiagramimporter-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.bpmndiagramimporter;uses:="org.proc
+ essmining.models.graphbased.directed.bpmn";version="1.1.0"
+Import-Bundle: org.apromore.raffaeleconforti-osgi;bundle-version="[1.0,2
+ .0]"
+Import-Package: com.processconfiguration;version="[1.1,2)",javax.xml,jav
+ ax.xml.bind;version="[2.2,3)",javax.xml.namespace,javax.xml.validation,
+ org.apromore.service.bpmndiagramimporter;version="[1.1,2)",org.omg.spec
+ .bpmn._20100524.model;version="[1.1,2)",org.processmining.models.graphb
+ ased;version="[1.0,2.0)",org.processmining.models.graphbased.directed;v
+ ersion="[1.0,2.0)",org.processmining.models.graphbased.directed.bpmn;ve
+ rsion="[1.0,2.0)",org.processmining.models.graphbased.directed.bpmn.ele
+ ments;version="[1.0,2.0)",org.processmining.plugins.bpmn;version="[1.0,
+ 2.0)",org.slf4j;version="[1.7,2)",org.springframework.beans.factory.asp
+ ectj,org.springframework.stereotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

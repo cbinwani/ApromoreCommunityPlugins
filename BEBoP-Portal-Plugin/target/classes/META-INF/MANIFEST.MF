@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425629391
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Bebop Plugin
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: BEBoP portal plugin
+Bundle-SymbolicName: org.apromore.plugin.gbebop-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.bebop;version="1.1.0";uses:="
+ org.apromore.plugin.portal,org.apromore.portal.custom.gui.plugin,org.ap
+ romore.service.bebop,org.springframework.stereotype"
+Import-Package: au.edu.qut.bpmn.exporter.impl;version="[1.1,2)",javax.in
+ ject;version="[1.0,2)",org.apromore.helper;version="[1.1,2)",org.apromo
+ re.model;version="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)"
+ ,org.apromore.portal.custom.gui.plugin;version="[1.1,2)",org.apromore.p
+ ortal.custom.gui.tab;version="[1.1,2)",org.apromore.portal.custom.gui.t
+ ab.impl;version="[1.1,2)",org.apromore.service;version="[1.1,2)",org.ap
+ romore.service.bebop;version="[1.1,2)",org.apromore.service.bpmndiagram
+ importer;version="[1.1,2)",org.processmining.models.graphbased.directed
+ .bpmn;version="[1.1,2)",org.slf4j;version="[1.7,2)",org.springframework
+ .stereotype;version="[3.1,4)",org.zkoss.zk.ui;version="[8.0,9)",org.zko
+ ss.zul;version="[8.0,9)",org.apromore.plugin;version="[1.1,2)",org.spri
+ ngframework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

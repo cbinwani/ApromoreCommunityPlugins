@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547433260143
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PQL Indexer portal plugin
+Bundle-SymbolicName: org.apromore.plugin.pql-indexer-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.pql.indexer;version="1.1.0";u
+ ses:="org.apromore.model,org.apromore.plugin,org.apromore.plugin.portal
+ ,org.springframework.stereotype,org.zkoss.zul"
+Import-Package: org.apromore.plugin;version="[1.1,2)",org.apromore.servi
+ ce.pql;version="[1.1,2)",javax.inject;version="[1.0,2)",org.apromore.he
+ lper;version="[1.1,2)",org.apromore.model;version="[1.1,2)",org.apromor
+ e.plugin.portal;version="[1.1,2)",org.pql.index;version="[1.2,2)",org.s
+ lf4j;version="[1.7,2)",org.springframework.stereotype;version="[3.1,4)"
+ ,org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zul;version="[8.0,9)",org.
+ springframework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

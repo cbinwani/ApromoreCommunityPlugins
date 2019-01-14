@@ -1,0 +1,14 @@
+org/apromore/plugin/portal/loganimation/LayoutGenerator.class
+org/apromore/plugin/editor/loganimation/LogAnimationPlugin.class
+org/apromore/plugin/portal/loganimation/LogAnimationController$2.class
+org/apromore/plugin/portal/loganimation/LogAnimationPlugin.class
+org/apromore/plugin/editor/loganimation/BPMNAnimationServlet.class
+org/apromore/plugin/portal/loganimation/ElementLayout.class
+org/apromore/plugin/editor/loganimation/AbstractImportPlugin.class
+org/apromore/plugin/editor/loganimation/OpenLogFilePlugin.class
+org/apromore/plugin/portal/loganimation/LogAnimationController$1.class
+org/apromore/plugin/portal/loganimation/LogAnimationController.class
+org/apromore/plugin/portal/loganimation/RedirectionServlet.class
+org/apromore/plugin/portal/loganimation/AnimationUpdater.class
+org/apromore/plugin/portal/loganimation/LogAnimationPluginInterface.class
+org/apromore/plugin/portal/loganimation/BPMNUpdater.class

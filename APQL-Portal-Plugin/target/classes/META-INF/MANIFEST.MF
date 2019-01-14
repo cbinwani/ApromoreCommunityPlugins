@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425623618
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Launches the APQL applet, which helps to compose and
+  submit PQL queries
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: APQL portal plugin
+Bundle-SymbolicName: org.apromore.plugin.apql-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.apql;uses:="org.apromore.plug
+ in.portal";version="1.1.0"
+Import-Package: org.apromore.model;version="[1.1,2)",org.apromore.plugin
+ .portal;version="[1.1,2)",org.slf4j;version="[1.7,2)",org.zkoss.zk.ui;v
+ ersion="[8.0,9)",org.zkoss.zk.ui.event;version="[8.0,9)",org.zkoss.zul;
+ version="[8.0,9)",org.apromore.plugin;version="[1.1,2)",org.eclipse.vir
+ go.web.dm,org.springframework.web.context;version="[3.1,4)",org.springf
+ ramework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Web-ContextPath: /apql

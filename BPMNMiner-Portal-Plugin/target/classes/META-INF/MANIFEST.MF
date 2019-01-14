@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547432585968
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: BPMNMiner portal plugin
+Bundle-SymbolicName: org.apromore.plugin.bpmnminer-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.plugin.portal.bpmnminer;version="1.1.0";use
+ s:="com.raffaeleconforti.bpmnminer.preprocessing.functionaldependencies
+ ,com.raffaeleconforti.foreignkeydiscovery.functionaldependencies,com.ra
+ ffaeleconforti.wrappers.settings,javax.inject,org.apromore.plugin.porta
+ l,org.apromore.service,org.apromore.service.bpmnminer,org.apromore.serv
+ ice.helper,org.apromore.service.logfilter.behaviour,org.deckfour.xes.fa
+ ctory,org.deckfour.xes.model,org.springframework.stereotype,org.zkoss.z
+ k.ui.event,org.zkoss.zul"
+Import-Package: com.raffaeleconforti.bpmnminer.preprocessing.functionald
+ ependencies;version="[1.1,2)",com.raffaeleconforti.foreignkeydiscovery.
+ functionaldependencies;version="[1.1,2)",com.raffaeleconforti.wrappers.
+ settings;version="[1.1,2)",javax.inject;version="[1.0,2)",javax.xml.dat
+ atype,org.apromore.dao.model;version="[1.1,2)",org.apromore.helper;vers
+ ion="[1.1,2)",org.apromore.model;version="[1.1,2)",org.apromore.plugin.
+ portal;version="[1.1,2)",org.apromore.service;version="[1.1,2)",org.apr
+ omore.service.bpmnminer;version="[1.1,2)",org.apromore.service.helper;v
+ ersion="[1.1,2)",org.apromore.service.logfilter.behaviour;version="[1.1
+ ,2)",org.apromore.service.model;version="[1.1,2)",org.deckfour.xes.exte
+ nsion.std,org.deckfour.xes.factory,org.deckfour.xes.in,org.deckfour.xes
+ .model,org.eclipse.collections.impl.map.mutable;version="[1.1,2)",org.e
+ clipse.collections.impl.set.mutable;version="[1.1,2)",org.springframewo
+ rk.stereotype;version="[3.1,4)",org.zkoss.util.media;version="[8.0,9)",
+ org.zkoss.zk.ui;version="[8.0,9)",org.zkoss.zk.ui.event;version="[8.0,9
+ )",org.zkoss.zul;version="[8.0,9)",org.apromore.plugin;version="[1.1,2)
+ ",org.springframework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

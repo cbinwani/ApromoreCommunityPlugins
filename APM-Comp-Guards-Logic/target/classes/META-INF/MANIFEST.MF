@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1547425784971
+Build-Jdk: 1.8.0_141
+Built-By: own_strong
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: APM compliance with guards logic
+Bundle-SymbolicName: org.apromore.apm-comp-guards-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.apm.compliance.guards;uses:="hub.to
+ p.petrinet";version="1.1.0"
+Import-Package: hub.top.petrinet;version="[1.1,2)",nl.rug.ds.bpm.pnml.ve
+ rifier.apm;version="[1.1,2)",org.antlr.runtime;version="[1.1,2)",org.ap
+ romore.service.apm.compliance.guards;version="[1.1,2)",org.springframew
+ ork.beans.factory.aspectj,org.springframework.stereotype;version="[3.1,
+ 4)"
+Tool: Bnd-1.50.0
